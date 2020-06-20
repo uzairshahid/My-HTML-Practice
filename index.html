@@ -3,29 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no,  minimum-scale=1, maximum-scale=1">
-    <title>Document</title>
+    <title>Welcome to Home</title>
+
+
+    <!-- Bootstrap files -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../public/css/stylesheet.css">
 </head>
 
+
+
+
 <body>
-    <!-- Navbar -->
-    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">-->
-    <!-- <nav class="navbar navbar-expand-lg navbar-toggleable-md fixed-top navbar-light bg-faded navbar-dark bg-transparent "  > -->
-    <nav class="navbar navbar-default fixed-top navbar-expand-lg ">
-        <a class="navbar-brand navbar-toggle" href="#"> <img src="./images/logo1.png" alt=""></a>
+    <!-- <header> -->
+    <nav class="navbar navbar-default fixed-top navbar-expand-lg  ">
+        <a class="navbar-brand navbar-toggle" href="#">
+            <h3 id="logo">
+                <div class="logo-container">
+                    <ul>
+                        <li>
+                            <div class="logo-holder logo-3">
+                                <a href="">
+                                    <h3>MD</h3>
+                                    <p>The One Pharmacy</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </span>
+            </h3>
+        </a>
         <div class="icons ml-auto">
             <ul>
                 <div class="menu-icon"></div>
@@ -41,37 +62,52 @@
                 </ul>
             </div>
 
-            <div class="menu ml-auto navbar-collapse .navBar" id="menu">
+            <div class="menu ml-auto navbar-collapse .navbar" id="menu">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">Home <span
-                                class="sr-only  ">(current)</span></a>
+                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2 menuBtn" href="./index.html">Home
+                            <span class="sr-only  ">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">About Us </a>
+                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2 menuBtn"
+                            href="./pages/about.html">About Us
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">Deals</a>
+                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2 menuBtn"
+                            href="./pages/deals.html">Deals</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">Shop Now</a>
+                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2 menuBtn"
+                            href="./pages/shop.html">Shop
+                            Now</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">Go to consultant</a>
+                        <a class="nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2 menuBtn"
+                            href="./pages/consultant.html">Go to
+                            consultant</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-white  btn-md mb-2 ml-2 ml-2" href="#">Contact Us</a>
+                        <a class="nav-link btn btn-outline-white  btn-md mb-2 ml-2 ml-2 menuBtn"
+                            href="./pages/contact.html">Contact
+                            Us</a>
                     </li>
                 </ul>
 
+
+
             </div>
-            <div class="navbar-nav ml-auto" style="margin-top: 14px;">
+
+        </div>
+        <!-- <div class="navbar-nav ml-auto loginBtns" style="margin-top: 14px;">
                 <a class="nav-item nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">LOGIN</a>
                 <a class="nav-item nav-link btn btn-outline-white btn-md mb-2 ml-2 ml-2" href="#">SIGN UP</a>
-            </div>
+            </div> -->
         </div>
     </nav>
+    <!-- </header> -->
 
+    <!-- slider -->
     <!-- slider -->
     <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
         <ol class="carousel-indicators">
@@ -93,91 +129,42 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <!-- Columns -->
 
-    <h3>4 Columns</h3>
-    <div class="container boxDiv">
-        <div class="row">
 
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="box">
-                    <p>class="col-xs-12 col-sm-6 col-md-3"</p>
-                </div>
+    <!-- content  -->
+
+
+    <section>
+        <div class="content">
+            <div class="headline">
+                <h1>Hello and welcome on our site!</h1>
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="box">
-                    <p>class="col-xs-12 col-sm-6 col-md-3"</p>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="box">
-                    <p>class="col-xs-12 col-sm-6 col-md-3"</p>
-                </div>
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="box">
-                    <p>class="col-xs-12 col-sm-6 col-md-3"</p>
-                </div>
-            </div>
-
+            
+            <div class="box box1">
+                <h4>We Make your consultancy</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ullam omnis esse accusamus eveniet.</p>
+            <button type="button" class="btn btn-md menuBtn readMore">Read More</button>
         </div>
-    </div>
-
-
-    <div class="about">
-        <h2>Main Description</h2>
-        <p>Roll on the floor purring your whiskers off intrigued by the shower burrow under covers, and play time, rub
-            face on everything, intently sniff hand, or pelt around the house and up and down stairs chasing phantoms.
-            Attack feet. Damn that dog shake treat bag under the bed drink water out of the faucet for lick butt love to
-            play with owner's hair tie. Swat at dog give attitude.</p>
-    </div>
-
-
-
-
-    <!-- About us -->
-    <!-- <section class="text-center about">
-        <h1>About US</h1>
-        <div class="container">
-            <div class="row"> 
-                <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
-                    <span class="fa fa-group"></span>
-                    <h2>Section 1</h2>
-                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled</p>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
-                    <span class="fa fa-info"></span>
-                    <h2>Section 2 </h2>
-                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum </p>
-                </div>
-                <div class="clearfix visible-md-block visible-sm-block"></div>
-                <div class="col-lg-4 col-sm-6 col-ex-12 about-item wow lightSpeedIn" data-wow-offset="200">
-                    <span class="fa fa-file"></span>
-                    <h2>Section 3</h2>
-                    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                        took a galley of type and scrambled</p>
-                </div>
-
-            </div>
-
+        <div class="box box2">
+            <h4>We Make your Shopping Better</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto itaque sapiente eius sed doloremque.</p>
+            <button type="button" class="btn btn-md menuBtn readMore">Read More</button>
         </div>
-    </section> -->
+        <div class="box box3">
+            <h4>We Make your deals better</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cupiditate quidem modi cumque saepe!</p>
+            <button type="button" class="btn btn-md menuBtn readMore">Read More</button>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     <!-- Footer -->
-    <section>Footer Example 4</section>
     <footer class="footer-distributed">
-
         <div class="footer-left">
-
-            <h3>Company<span>logo</span></h3>
 
             <p class="footer-links">
                 <a href="#" class="link-1">Home</a>
@@ -192,12 +179,10 @@
 
                 <a href="#">Contact</a>
             </p>
-
             <p class="footer-company-name">Company Name © 2015</p>
         </div>
 
         <div class="footer-center">
-
             <div>
                 <i class="fa fa-map-marker"></i>
                 <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
@@ -216,32 +201,19 @@
         </div>
 
         <div class="footer-right">
-
-            <p class="footer-company-about">
+            <!-- <p class="footer-company-about">
                 <span>About the company</span>
                 Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
                 vehicula sit amet.
-            </p>
-
+            </p> -->
             <div class="footer-icons">
-
                 <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-linkedin"></i></a>
                 <a href="#"><i class="fa fa-github"></i></a>
-
             </div>
-
         </div>
-
     </footer>
-
-
-
-
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -255,7 +227,9 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
-    <script src="scripts/index.js"></script>
+    <script src="../public/js/custom.js"></script>
+
+
 </body>
 
 </html>
