@@ -187,7 +187,8 @@ p.para {
 }
 
 .navbar-default .navbar-nav .menuBtn {
-  color: grey;
+  /* color: grey; */
+  color: #dc143c;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   margin: 10px 5px 5px 5px;
@@ -228,7 +229,7 @@ p.para {
   background-color: #490d40;
 }
 
-.navbar.solid {
+.navbar.solid { 
   background-color: white;
   transition: 1s ease 0s;
   box-shadow: 0 0 4px grey;
